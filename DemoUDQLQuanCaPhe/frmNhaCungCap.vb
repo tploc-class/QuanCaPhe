@@ -22,7 +22,7 @@
             nccnl_gia, nccnl_ghi_chu, nccnl_xoa from NhaCungCapNguyenLieu, NhaCungCap, NguyenLieu
             where nccnl_nha_cung_cap = ncc_ma and nccnl_nguyen_lieu = nl_ma and 
             nccnl_nha_cung_cap = {0} and
-            ncc_xoa = {1}", ncc_ma, cbHienThiXoa.Checked.ToString())
+            nccnl_xoa = {1}", ncc_ma, cbHienThiXoa.Checked.ToString())
         dsNguyenLieu = XL_DuLieu.DocDuLieu(truy_van)
         dsNguyenLieuView = New DataView(dsNguyenLieu)
         dgvDSNguyenLieu.DataSource = dsNguyenLieuView

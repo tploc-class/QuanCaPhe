@@ -143,7 +143,7 @@ Partial Class frmNhaCungCap
         ' 
         ' bPhucHoi
         ' 
-        bPhucHoi.Location = New Point(634, 229)
+        bPhucHoi.Location = New Point(682, 229)
         bPhucHoi.Name = "bPhucHoi"
         bPhucHoi.Size = New Size(75, 23)
         bPhucHoi.TabIndex = 35
@@ -155,9 +155,9 @@ Partial Class frmNhaCungCap
         cbHienThiXoa.AutoSize = True
         cbHienThiXoa.Location = New Point(465, 232)
         cbHienThiXoa.Name = "cbHienThiXoa"
-        cbHienThiXoa.Size = New Size(168, 19)
+        cbHienThiXoa.Size = New Size(199, 19)
         cbHienThiXoa.TabIndex = 34
-        cbHienThiXoa.Text = "Hien thi cac mon an bi xoa"
+        cbHienThiXoa.Text = "Hien thi cac nha cung cap bi xoa"
         cbHienThiXoa.UseVisualStyleBackColor = True
         ' 
         ' Label4
